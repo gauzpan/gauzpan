@@ -1,0 +1,59 @@
+name: Contribution graph
+
+on:
+  schedule:
+    - cron: "17 3 * * *"   # daily, 03:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write           # push the SVGs to the `output` branch only
+
+concurrency:
+  group: contrib-graph
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Unit tests (allowlist filter and renderer)
+        run: python3 -m unittest discover -s scripts -p "test_*.py"
+
+      - name: Generate graphs
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          # Optional. Fine-grained PAT scoped to your own account, only needed to
+          # count private PERSONAL repos. Leave the secret unset for public-only.
+          CONTRIB_TOKEN: ${{ secrets.CONTRIB_TOKEN }}
+          CONTRIB_LOGIN: ${{ github.repository_owner }}
+          CONTRIB_UTC_OFFSET_MINUTES: "330"   # IST, so late-night commits land on the right day
+        run: python3 scripts/contrib.py --config config/contrib-allowlist.json --out out
+
+      - name: Publish SVGs to the output branch
+        env:
+          PUSH_TOKEN: ${{ github.token }}   # never CONTRIB_TOKEN: it needs no write access
+        run: |
+          set -e
+          remote="https://x-access-token:${PUSH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git"
+          rm -rf "$RUNNER_TEMP/pub"
+          if git ls-remote --exit-code --heads "$remote" output >/dev/null 2>&1; then
+            git clone --quiet --depth 1 --branch output "$remote" "$RUNNER_TEMP/pub"
+          else
+            mkdir "$RUNNER_TEMP/pub"
+            git -C "$RUNNER_TEMP/pub" init --quiet -b output
+            git -C "$RUNNER_TEMP/pub" remote add origin "$remote"
+          fi
+          mkdir -p "$RUNNER_TEMP/pub/assets"
+          cp out/assets/contrib-dark.svg out/assets/contrib-light.svg "$RUNNER_TEMP/pub/assets/"
+          cd "$RUNNER_TEMP/pub"
+          if [ -z "$(git status --porcelain)" ]; then
+            echo "No change in the graph; nothing to publish."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets
+          git commit --quiet -m "Update contribution graph"
+          git push --quiet origin output

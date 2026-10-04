@@ -1,0 +1,11 @@
+# Private or not part of the profile repo
+/spec/
+/references/
+/open-tickets.md
+# The website lives in the gauzpan.github.io repo
+/index.html
+
+# Local
+.venv/
+.DS_Store
+__pycache__/

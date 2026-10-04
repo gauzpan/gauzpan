@@ -1,0 +1,16 @@
+<!doctype html><html><head><meta charset="utf-8"><link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;600;700&family=IBM+Plex+Sans:wght@400;500&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet"><style>:root{--card:#111A2C;--navy:#0B1220;--bd:#1E2A40;--chip:#2A3852;--fg:#E8ECF4;--sub:#B4BDCE;--soft:#D3D9E4;--mut:#8C97AD;--acc:#F5A524;--teal:#3FB8AF;--blue:#8AB4FF;--coral:#FF8A65}
+html.light{--card:#F6F8FC;--navy:#F6F8FC;--bd:#D5DCE8;--chip:#C3CDDF;--fg:#0B1220;--sub:#3A465C;--soft:#26324A;--mut:#5C6880;--acc:#C77F00;--teal:#1F8A82;--blue:#3B6FD4;--coral:#D4572F}
+html,body{margin:0;width:800px;background:transparent}
+#root{width:800px;display:grid;grid-template-columns:1fr 1.25fr;gap:14px}
+.card{box-sizing:border-box;background:var(--card);border:1px solid var(--bd);border-top:3px solid var(--c);border-radius:12px;padding:18px 22px;color:var(--fg);display:flex;flex-direction:column;gap:10px}
+.l{font:400 11px 'JetBrains Mono',monospace;color:var(--mut);text-transform:uppercase;letter-spacing:.08em}
+.t{font:600 19px/1.2 'Space Grotesk',sans-serif}
+.s{font:400 14px 'IBM Plex Sans',sans-serif;color:var(--sub)}
+.it{display:flex;gap:12px;align-items:baseline}.it em{font:400 12px 'JetBrains Mono',monospace;color:var(--c);font-style:normal}
+.it div{font:600 16px/1.25 'Space Grotesk',sans-serif}.it div small{display:block;margin-top:2px;font:400 13.5px 'IBM Plex Sans',sans-serif;color:var(--sub)}
+</style></head><body><div id="root">
+<div class="card" style="--c:var(--teal)"><div class="l">Education</div><div class="t">B.Tech CSE</div><div class="s">JIIT Noida</div></div>
+<div class="card" style="--c:var(--acc)"><div class="l">Certification &amp; Training</div>
+<div class="it"><em>01</em><div>AI Product Management<small>Rethink Systems (2026)</small></div></div>
+<div class="it"><em>02</em><div>PMC Level III<small>Pragmatic Institute</small></div></div></div>
+</div><script>if(location.hash=="#light")document.documentElement.className="light";addEventListener("load",()=>setTimeout(()=>{document.documentElement.dataset.h=document.getElementById("root").getBoundingClientRect().height},300))</script></body></html>
