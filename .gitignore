@@ -2,8 +2,6 @@
 /spec/
 /references/
 /open-tickets.md
-# The website lives in the gauzpan.github.io repo
-/index.html
 
 # Local
 .venv/

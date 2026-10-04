@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Gaurav Pandvia · Senior PM, Enterprise AI &amp; Hybrid Cloud</title>
+<meta name="description" content="Gaurav Pandvia. Senior PM · Enterprise AI &amp; Hybrid Cloud · Engineer turned PM who still builds.">
+<meta name="theme-color" content="#0B1220">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#0D1117; --navy:#0B1220; --card:#111A2C; --card2:#131C2F; --line:#1E2A40; --line2:#33415C;
+  --fg:#E8ECF4; --sub:#B4BDCE; --soft:#D3D9E4; --mut:#8C97AD;
+  --acc:#F5A524; --acc2:#FFC861; --teal:#3FB8AF; --blue:#8AB4FF; --coral:#FF8A65;
+  --head:'Space Grotesk',system-ui,sans-serif; --body:'IBM Plex Sans',system-ui,sans-serif; --mono:'JetBrains Mono',ui-monospace,monospace;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:400 16px/1.6 var(--body)}
+a{color:var(--acc);text-decoration:none}
+a:hover{color:var(--acc2);text-decoration:underline}
+a:focus-visible,.btn:focus-visible{outline:2px solid var(--acc2);outline-offset:3px;border-radius:6px}
+img{max-width:100%;height:auto}
+.wrap{max-width:880px;margin:0 auto;padding:0 20px}
+.skip{position:absolute;left:-999px;top:8px;background:var(--acc);color:var(--navy);padding:8px 14px;border-radius:6px;z-index:10}
+.skip:focus{left:8px}
+
+/* top bar */
+.bar{position:sticky;top:0;z-index:5;background:rgba(13,17,23,.88);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
+.bar .wrap{display:flex;align-items:center;justify-content:space-between;height:54px;gap:16px}
+.bar b{font:600 15px var(--head);letter-spacing:-.01em;white-space:nowrap;flex:0 0 auto}
+.bar nav{display:flex;gap:18px;font:400 13px var(--mono);overflow-x:auto;white-space:nowrap;scrollbar-width:none}
+.bar nav::-webkit-scrollbar{display:none}
+.bar nav a{color:var(--mut)}
+.bar nav a:hover{color:var(--acc)}
+
+/* section scaffolding */
+section{padding:56px 0 8px;scroll-margin-top:60px}
+h1,h2,h3{font-family:var(--head);margin:0;letter-spacing:-.02em}
+h2{font-size:28px;font-weight:600;line-height:1.2;margin-bottom:6px}
+h3{font-size:20px;font-weight:600;margin:36px 0 6px}
+.kick{font:400 12px var(--mono);color:var(--mut);text-transform:uppercase;letter-spacing:.08em;margin-bottom:8px}
+.lede{color:var(--sub);margin:6px 0 22px;max-width:62ch}
+hr.sec{border:0;border-top:1px solid var(--line);margin:56px 0 0}
+code,.mono{font-family:var(--mono)}
+.ph{font:400 .85em var(--mono);color:var(--acc);background:#3A2C0B;padding:1px 6px;border-radius:4px}
+
+/* hero */
+.hero{padding-top:40px}
+.banner{border:1px solid var(--line);background:var(--navy);border-radius:14px;padding:28px 32px 26px;display:flex;flex-direction:column;gap:18px}
+.banner .row{display:flex;justify-content:space-between;gap:12px;font:400 13px var(--mono)}
+.banner .row span:first-child{color:var(--acc)} .banner .row span:last-child{color:var(--mut);text-align:right}
+.banner h1{font-size:clamp(34px,7vw,52px);font-weight:600;line-height:1.05}
+.banner p{margin:10px 0 0;font:400 clamp(15px,2.4vw,20px)/1.4 var(--head);color:var(--sub)}
+.bars{display:flex;gap:10px}.bars i{display:block;height:4px;border-radius:2px}
+.split{display:grid;grid-template-columns:1.1fr .9fr;gap:24px;align-items:center;margin-top:24px}
+.hook{list-style:none;margin:0;padding:0;display:grid;gap:14px}
+.hook li{display:flex;gap:12px;color:var(--soft);font-size:15.5px}
+.hook li span{flex:0 0 auto}
+.hook b{color:var(--fg);font-weight:600}
+.portrait{width:100%;border-radius:14px;border:1px solid var(--line);display:block;background:var(--card)}
+.proof{display:flex;flex-wrap:wrap;gap:8px;margin:24px 0 0}
+.proof span{font:400 13px var(--mono);color:var(--soft);background:var(--card);border:1px solid var(--line);border-radius:6px;padding:5px 10px}
+.links{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+.btn{display:inline-flex;align-items:center;height:44px;padding:0 18px;border-radius:8px;border:1px solid var(--line2);color:var(--fg);font-weight:500}
+.btn:hover{text-decoration:none;border-color:var(--acc);color:var(--acc)}
+.btn.primary{background:var(--acc);border-color:var(--acc);color:var(--navy);font-weight:600}
+.btn.primary:hover{background:var(--acc2);border-color:var(--acc2);color:var(--navy)}
+
+/* cards */
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:18px}
+.card{background:var(--card);border:1px solid var(--line);border-top:3px solid var(--k,var(--acc));border-radius:12px;padding:18px 20px;display:flex;flex-direction:column;gap:8px}
+.card .l{font:400 11px var(--mono);color:var(--mut);text-transform:uppercase;letter-spacing:.08em}
+.card .t{font:600 18px/1.2 var(--head)}
+.card p{margin:0;color:var(--sub);font-size:14.5px}
+.card .o{margin-top:auto;padding-top:10px;font:400 12.5px var(--mono);color:var(--acc)}
+.note{color:var(--sub);margin:22px 0 0}
+.tbl{margin-top:14px;border:1px solid var(--line);border-radius:12px;background:var(--card);overflow:hidden}
+.tbl .r{display:grid;grid-template-columns:48px 230px 1fr;gap:16px;align-items:center;padding:14px 22px;border-top:1px solid var(--line)}
+.tbl .h{border-top:0;border-bottom:1px solid var(--line);padding:11px 22px;font:400 11px var(--mono);color:var(--mut);text-transform:uppercase;letter-spacing:.08em}
+.tbl .n{font:400 13px var(--mono);color:var(--teal)}
+.tbl .a{font:600 15px/1.25 var(--head)}
+.tbl .d{color:var(--sub);font-size:14px;line-height:1.5}
+
+/* projects */
+.proj{display:grid;grid-template-columns:230px 1fr 190px;gap:20px;align-items:center;padding:20px 0;border-top:1px solid var(--line)}
+.proj:last-of-type{border-bottom:1px solid var(--line)}
+.proj .nm{display:flex;align-items:center;gap:10px;font:600 17px/1.2 var(--head)}
+.proj .nm img{width:28px;height:28px;flex:0 0 auto}
+.proj .nm a{color:var(--fg)} .proj .nm a:hover{color:var(--acc)}
+.tag{display:inline-block;margin-top:8px;font:400 11px var(--mono);letter-spacing:.04em;padding:3px 9px;border-radius:999px;color:var(--navy);background:var(--k,var(--acc))}
+.proj p{margin:0;color:var(--sub);font-size:14.5px}
+.proj .ai{margin-top:6px;color:var(--soft);font-size:14px}
+.stat{display:inline-block;margin-top:8px;font:400 11.5px var(--mono);color:var(--mut);border:1px solid var(--line2);border-radius:5px;padding:2px 8px}
+.stat.win{color:var(--acc);border-color:var(--acc)}
+.proj .acts{display:flex;flex-direction:column;gap:8px;align-items:stretch}
+.pill{display:flex;align-items:center;justify-content:center;height:36px;border-radius:6px;font:500 12.5px var(--mono);letter-spacing:.06em;text-transform:uppercase}
+.pill.demo{background:var(--acc);color:var(--navy)} .pill.demo:hover{background:var(--acc2);text-decoration:none;color:var(--navy)}
+.pill.code{background:#181717;color:#fff;border:1px solid var(--line2)} .pill.code:hover{border-color:var(--acc);text-decoration:none;color:var(--acc)}
+.proj .acts .stat{margin:0;text-align:center}
+
+/* thinking */
+.quote{border-left:3px solid var(--teal);background:var(--card);border-radius:0 12px 12px 0;padding:16px 20px;margin:18px 0 6px}
+.quote b{font-family:var(--head)} .quote p{margin:6px 0 0;color:var(--sub)}
+.bul{list-style:none;margin:18px 0 0;padding:0;display:grid;gap:12px}
+.bul li{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 18px;color:var(--sub);font-size:15px}
+.bul li b{display:block;font:600 16px var(--head);color:var(--fg);margin-bottom:2px}
+
+/* toolkit */
+.kit{border:1px solid var(--line);border-radius:12px;background:var(--navy);padding:6px 24px}
+.kit div{display:flex;gap:20px;padding:14px 0;border-bottom:1px solid var(--line)}
+.kit div:last-child{border-bottom:0}
+.kit dt{flex:0 0 130px;font:600 15px var(--head)}
+.kit dd{margin:0;flex:1;display:flex;flex-wrap:wrap;gap:6px}
+.kit dd span{padding:3px 9px;border:1px solid #2A3852;border-radius:5px;font-size:13px;color:var(--soft)}
+dl{margin:0}
+.edu{margin-top:22px;color:var(--sub)}
+.edu b{color:var(--fg)}
+.edu ol{margin:6px 0 0;padding-left:22px}
+
+/* contact */
+.cta{background:var(--acc);color:var(--navy);border-radius:14px;padding:28px 32px;display:flex;align-items:center;justify-content:space-between;gap:20px;margin-top:20px}
+.cta p{margin:0;font:600 22px/1.25 var(--head)}
+.cta a{flex:0 0 auto;display:inline-flex;align-items:center;height:46px;padding:0 20px;background:var(--navy);color:#fff;font-weight:600;border-radius:8px}
+.cta a:hover{text-decoration:none;background:#000;color:var(--acc2)}
+footer{padding:36px 0 56px;color:var(--mut);font:400 12.5px var(--mono)}
+
+/* responsive */
+@media (max-width:760px){
+  .split{grid-template-columns:1fr}
+  .cards{grid-template-columns:1fr}
+  .tbl .h{display:none}
+  .tbl .r{grid-template-columns:36px 1fr;gap:4px 12px;padding:14px 18px}
+  .tbl .d{grid-column:2}
+  .proj{grid-template-columns:1fr;gap:12px}
+  .proj .acts{flex-direction:row}.proj .acts>*{flex:1}
+  .kit div{flex-direction:column;gap:8px}.kit dt{flex:none}
+  .cta{flex-direction:column;align-items:flex-start;padding:24px}
+  .banner{padding:22px 20px}
+  .bar nav{gap:14px}
+  section{padding-top:44px}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="bar">
+  <div class="wrap">
+    <b>Gaurav Pandvia</b>
+    <nav aria-label="Sections">
+      <a href="#nutanix">Day job</a><a href="#projects">Projects</a><a href="#thinking">Thinking</a><a href="#toolkit">Toolkit</a><a href="#talk">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main" class="wrap">
+
+<!-- HOOK -->
+<section class="hero" aria-labelledby="top" style="padding-top:36px">
+  <div class="banner">
+    <div class="row"><span>$ whoami</span><span>Enterprise AI Product Builder</span></div>
+    <div>
+      <h1 id="top">Gaurav Pandvia</h1>
+      <p>Senior PM · Enterprise AI &amp; Hybrid Cloud · Engineer turned PM who still builds</p>
+    </div>
+    <div class="bars" aria-hidden="true"><i style="width:64px;background:var(--acc)"></i><i style="width:32px;background:var(--teal)"></i></div>
+  </div>
+
+  <div class="split">
+    <ul class="hook">
+      <li><span aria-hidden="true">🧩</span><div>I turn complex, real-world problems into <b>tech-powered products</b>, breaking them down with first principles and systems thinking.</div></li>
+      <li><span aria-hidden="true">🏢</span><div>By day, I work on an <b>Enterprise product for 6,000+ customers</b> managing private Cloud Infrastructure workloads.</div></li>
+      <li><span aria-hidden="true">🚀</span><div>I'm relentlessly building with <b>AI</b> to ship what works.</div></li>
+      <li><span aria-hidden="true">🧪</span><div>On weekends, I experiment with AI.</div></li>
+    </ul>
+    <img class="portrait" src="images/gaurav_p.gif" width="640" height="360" alt="Illustrated portrait of Gaurav Pandvia at his desk, with a whiteboard reading &quot;Turning Ideas into Impact&quot;">
+  </div>
+
+  <div class="proof" aria-label="At a glance">
+    <span>$200M+ ARR product (Nutanix Cloud Manager)</span><span>6,000+ customers</span><span>10+ yrs enterprise tech</span>
+  </div>
+  <div class="links">
+    <a class="btn primary" href="https://www.linkedin.com/in/gaurav-pandvia">LinkedIn</a>
+    <a class="btn" href="Gaurav_Pandvia_Resume.pdf">Resume</a>
+    <a class="btn" href="mailto:gaurav.pandvia@gmail.com">Email</a>
+  </div>
+</section>
+
+<hr class="sec">
+
+<!-- NUTANIX -->
+<section id="nutanix" aria-labelledby="h-nutanix">
+  <div class="kick">By day · Nutanix</div>
+  <h2 id="h-nutanix">Day job: Nutanix</h2>
+  <p class="lede">Senior Product Manager on <b>NCM</b>, a $200M+ ARR product serving 6,000+ customers. My current focus: making AI a first-class part of how they run their private clouds.</p>
+
+  <div class="cards">
+    <article class="card" style="--k:var(--acc)">
+      <div class="l">Strategy</div><div class="t">In-product AI assistant</div>
+      <p>Wrote the product strategy for the assistant built into NCM.</p>
+      <div class="o">Outcome: <span class="ph">[ADD]</span></div>
+    </article>
+    <article class="card" style="--k:var(--teal)">
+      <div class="l">Integration</div><div class="t">NCM MCP Server</div>
+      <p>Led the integration that exposes NCM to AI agents over MCP.</p>
+      <div class="o">Outcome: <span class="ph">[ADD]</span></div>
+    </article>
+    <article class="card" style="--k:var(--blue)">
+      <div class="l">In progress</div><div class="t">AI workspace orchestration</div>
+      <p>LLM inference + Kubernetes runtime + RAG data layer, managed as one workspace.</p>
+    </article>
+  </div>
+
+  <p class="note">Customer discovery with 50+ enterprise customers · 5+ years in product management after 6 years as a full-stack engineer.</p>
+
+  <h3>Past work areas</h3>
+  <p class="lede" style="margin-bottom:0">Before AI, I owned these areas of the platform.</p>
+  <div class="tbl" role="table" aria-label="Past work areas">
+    <div class="r h" role="row"><span role="columnheader">#</span><span role="columnheader">Area</span><span role="columnheader">Role &amp; Responsibility</span></div>
+    <div class="r" role="row"><span class="n" role="cell">01</span><span class="a" role="cell">Projects &amp; IAM</span><span class="d" role="cell">Defined requirements and drove the integration of platform services with NCM, so customers get least-privilege access scoped within a boundary.</span></div>
+    <div class="r" role="row"><span class="n" role="cell">02</span><span class="a" role="cell">Custom Forms for customized UI</span><span class="d" role="cell">Defined requirements for customizable application request forms, so each customer gets the fields and look their workflow needs.</span></div>
+    <div class="r" role="row"><span class="n" role="cell">03</span><span class="a" role="cell">Infrastructure application lifecycle automation</span><span class="d" role="cell">Drove improvements to the Day 0, Day 1 and Day 2 application lifecycle experience on Private Cloud for Enterprise customers.</span></div>
+    <div class="r" role="row"><span class="n" role="cell">04</span><span class="a" role="cell">Infrastructure as Code (IaC)</span><span class="d" role="cell">Owned the IaC capability in NCM: CLI and programmatic access to Self-Service automation entities, enabling customers' custom CI/CD integrations.</span></div>
+    <div class="r" role="row"><span class="n" role="cell">05</span><span class="a" role="cell">Cost governance &amp; Security Compliance for public clouds</span><span class="d" role="cell">As a full-stack engineer, built capabilities that let Enterprise customers analyze and optimize their cloud spend and compliance posture.</span></div>
+  </div>
+</section>
+
+<hr class="sec">
+
+<!-- PROJECTS -->
+<section id="projects" aria-labelledby="h-projects">
+  <div class="kick">On weekends · Bharat</div>
+  <h2 id="h-projects">Weekend side projects</h2>
+  <p class="lede">AI proofs of concept for Bharat, built solo. I use Claude Code, Cursor and Lovable to go from hypothesis to working PoC in days, then test with real users.</p>
+
+  <article class="proj">
+    <div><div class="nm"><img src="images/github-bot.gif" alt="" width="28" height="28"><a href="https://github.com/gauzpan/rideinsync">RideInSync</a></div><span class="tag" style="--k:var(--acc)">Mobility</span></div>
+    <div><p>Keeps riders in a group coordinated with live position tracking, and lets them raise an SOS for immediate emergency response.</p><p class="ai"><b>AI angle:</b> <span class="ph">[ADD]</span></p><span class="stat win">Buildathon winner · ReThink System Cohort 8</span> <span class="ai">Working to further enhance.</span></div>
+    <div class="acts"><a class="pill demo" href="http://rideinsync.in">▶ Live Demo</a><a class="pill code" href="https://github.com/gauzpan/rideinsync">View Code</a></div>
+  </article>
+
+  <article class="proj">
+    <div><div class="nm"><img src="images/github-bot.gif" alt="" width="28" height="28"><a href="https://github.com/gauzpan/karma-setu">CivicRouter</a></div><span class="tag" style="--k:var(--teal)">GovTech</span></div>
+    <div><p>Citizens don't know who represents them or where to take an issue.</p><p class="ai"><b>AI angle:</b> <span class="ph">[ADD]</span></p></div>
+    <div class="acts"><a class="pill demo" href="https://karma-setu.vercel.app/">▶ Live Demo</a><a class="pill code" href="https://github.com/gauzpan/karma-setu">View Code</a></div>
+  </article>
+
+  <article class="proj">
+    <div><div class="nm"><img src="images/github-bot.gif" alt="" width="28" height="28"><a href="https://github.com/gauzpan/charaka-ai-elearning">Charaka AI</a></div><span class="tag" style="--k:var(--blue)">Healthtech, Edtech</span></div>
+    <div><p>Doctors want to learn AI, but content is written for engineers.</p><p class="ai"><b>AI angle:</b> <span class="ph">[ADD]</span></p><span class="stat">Live app · local only</span></div>
+    <div class="acts"><a class="pill code" href="https://github.com/gauzpan/charaka-ai-elearning">View Code</a></div>
+  </article>
+
+  <article class="proj">
+    <div><div class="nm"><img src="images/github-bot.gif" alt="" width="28" height="28"><a href="https://github.com/gauzpan/agent-management-portal">Agent Management Portal</a></div><span class="tag" style="--k:var(--coral)">B2B SaaS, Education</span></div>
+    <div><p>Helps Australian colleges manage recruitment agent applications and lifecycle, for better compliance and faster processing.</p><p class="ai"><b>AI angle:</b> <span class="ph">[ADD]</span></p><span class="stat">Live app · local only</span></div>
+    <div class="acts"><a class="pill code" href="https://github.com/gauzpan/agent-management-portal">View Code</a></div>
+  </article>
+
+  <article class="proj">
+    <div><div class="nm"><img src="images/github-bot.gif" alt="" width="28" height="28"><span>Tooti Gullak</span></div><span class="tag" style="--k:var(--teal)">Fintech, Gig economy</span></div>
+    <div><p>Gig workers with irregular income have no tools to save.</p><p class="ai"><b>AI angle:</b> <span class="ph">[ADD]</span></p></div>
+    <div class="acts"><span class="stat">Prototype</span></div>
+  </article>
+
+  <article class="proj">
+    <div><div class="nm"><img src="images/github-bot.gif" alt="" width="28" height="28"><span>Loom</span></div><span class="tag" style="--k:var(--acc)">Silver economy</span></div>
+    <div><p>Seniors face isolation and find it hard to make meaningful connections.</p><p class="ai"><b>AI angle:</b> <span class="ph">[ADD]</span></p></div>
+    <div class="acts"><span class="stat">Prototype</span></div>
+  </article>
+
+  <p class="note" style="font-size:13px;color:var(--mut)">All projects are proofs of concept.</p>
+</section>
+
+<hr class="sec">
+
+<!-- THINKING + ABOUT -->
+<section id="thinking" aria-labelledby="h-think">
+  <div class="kick">Product thinking</div>
+  <h2 id="h-think">How I think about products</h2>
+  <blockquote class="quote" style="margin-left:0"><b><span class="ph">[Research title]</span> · <span class="ph">[link]</span></b><p><span class="ph">[Two-sentence summary.]</span></p></blockquote>
+  <ul class="bul">
+    <li><b>Find where the loop breaks.</b>The visible complaint is rarely the problem. Users usually aren't short of content or tools; they're short of the right match or a clear path.</li>
+    <li><b>Continuous Discovery.</b>Start with the problem, learn from users, break it down, explore possibilities, build, measure, learn, and repeat. The goal isn't to build more, it’s to build what matters.</li>
+    <li><b>Go where incumbents aren't.</b>I'd rather own an uncontested niche than fight on features the market leaders already do well.</li>
+    <li><b>Treat trust as a constraint.</b>No answer beats a confident wrong one. AI says it's AI, and sensitive data has no way in.</li>
+    <li><b>Design for real behaviour.</b>People act under pressure, not as planned. Products should bend with them, not break.</li>
+    <li><b>Separate buyer from user.</b>Whoever pays and whoever uses often differ. Each needs their own reason to say yes.</li>
+    <li><b>Rules first, AI where it earns it.</b>A deterministic path that always works, AI on top. I measure outcomes, not time in app.</li>
+  </ul>
+
+  <h3>About me</h3>
+  <ul class="bul">
+    <li><b>Engineer turned PM.</b>7 years as a full-stack engineer before moving into product, so I still sneakingly sometime read the code and feel comfortable to talk architecture with my teams. <span class="ph">[confirm]</span></li>
+    <li><b>I prototype to learn.</b>I use AI coding harnesses like Claude Code, Open Code, Codex, Cursor to turn a hypothesis into a working PoC in days, then test it with real users.</li>
+    <li><b>Society Welfare.</b>I believe in do good, spread joy, good Karma. I led 100 volunteers at an NGO called Make A Difference, Bangalore, designing foundational learning programs for 200+ children under the age of 10 living in shelter homes.</li>
+  </ul>
+</section>
+
+<hr class="sec">
+
+<!-- TOOLKIT -->
+<section id="toolkit" aria-labelledby="h-kit">
+  <div class="kick">Toolkit</div>
+  <h2 id="h-kit">Toolkit</h2>
+  <dl class="kit" style="margin-top:16px">
+    <div><dt>Product</dt><dd><span>Strategy &amp; roadmap</span><span>Customer discovery</span><span>PLG &amp; usage telemetry &amp; analytics</span><span>AI Prototyping</span></dd></div>
+    <div><dt>Enterprise AI</dt><dd><span>GPU Infra</span><span>LLMs</span><span>AI Agents</span><span>RAG</span><span>MCP</span><span>Agentic workflows with chat assistant tools</span><span>Evals</span></dd></div>
+    <div><dt>Build</dt><dd><span>Open Code</span><span>Claude Code</span><span>Codex</span><span>Figma Make</span><span>Gemini</span><span>JavaScript/TypeScript</span><span>Python</span><span>REST APIs</span></dd></div>
+    <div><dt>Cloud &amp; data</dt><dd><span>Private Cloud</span><span>Public Cloud</span><span>Kubernetes</span><span>IaC</span><span>Snowflake</span><span>SQL</span></dd></div>
+  </dl>
+  <div class="edu">
+    <p style="margin:0"><b>Education:</b> B.Tech CSE, JIIT Noida</p>
+    <p style="margin:12px 0 0"><b>Certification &amp; Training:</b></p>
+    <ol><li>AI Product Management, Rethink Systems (2026)</li><li>PMC Level III, Pragmatic Institute</li></ol>
+  </div>
+</section>
+
+<hr class="sec">
+
+<!-- CONTACT -->
+<section id="talk" aria-labelledby="h-talk">
+  <h2 id="h-talk">Let's talk</h2>
+  <div class="cta">
+    <p>I'm happy to talk about AI product roles, agentic AI, or building for Bharat.</p>
+    <a href="https://www.linkedin.com/in/gaurav-pandvia">LinkedIn →</a>
+  </div>
+  <p style="margin:14px 0 0;color:var(--sub)">The best way to reach me is <a href="https://www.linkedin.com/in/gaurav-pandvia">LinkedIn</a>.</p>
+</section>
+
+</main>
+
+<footer class="wrap">Last updated October 2026</footer>
+</body>
+</html>
