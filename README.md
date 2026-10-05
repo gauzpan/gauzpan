@@ -49,7 +49,7 @@ Senior Product Manager on **NCM**, a $200M+ ARR product serving 6,000+ customers
 
   <source media="(prefers-color-scheme: light)" srcset="assets/nutanix-light.png">
 
-  <img src="assets/nutanix-light.png" alt="Three Nutanix work items. Strategy: In-product AI assistant. Wrote the product strategy for the assistant built into NCM. Integration: NCM MCP Server. Led the integration that exposes NCM to AI agents over MCP. In progress: AI workspace orchestration. LLM inference + Kubernetes runtime + RAG data layer, managed as one workspace." width="100%">
+  <img src="assets/nutanix-light.png" alt="Three Nutanix work items. Strategy: In-product AI assistant. Authored the product strategy for an AI assistant planned inside NCM. Integration: NCM MCP Server. Spearheading the integration to expose NCM to AI agents over MCP. In progress: AI workspace orchestration. LLM inference + Kubernetes runtime + RAG data layer, managed as one workspace." width="100%">
 
 </picture>
 
