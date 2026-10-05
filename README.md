@@ -344,7 +344,7 @@ Seniors face isolation and find it hard to make meaningful connections.<br>
 
 ## Let's talk
 
-<a href="https://www.linkedin.com/in/gaurav-pandvia"><img src="assets/cta.png" alt="I'm happy to talk about AI product roles, agentic AI, or building with AI to solve real issues. LinkedIn." width="100%"> 
+<a href="https://www.linkedin.com/in/gaurav-pandvia"><img src="assets/cta.png" alt="I'm happy to talk about AI product roles, agentic AI, or Building with AI to solve real issues. LinkedIn." width="100%"> 
 
 </a>
 
