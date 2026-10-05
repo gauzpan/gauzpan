@@ -73,20 +73,6 @@ Before AI, I owned these areas of the platform.
 
 ---
 
-## When I build
-
-<picture>
-
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/gauzpan/gauzpan/output/assets/contrib-dark.svg">
-
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/gauzpan/gauzpan/output/assets/contrib-light.svg">
-
-  <img src="https://raw.githubusercontent.com/gauzpan/gauzpan/output/assets/contrib-light.svg" alt="Side-project activity over the last 12 months: weekday contributions in teal, weekend contributions in saffron. Personal projects only." width="100%">
-
-</picture>
-
-Personal projects only
-
 ## Weekend side projects
 
 
