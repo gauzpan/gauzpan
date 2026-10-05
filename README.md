@@ -33,7 +33,6 @@
 
 </table>
 
-`$200M+ ARR product (Nutanix Cloud Manager)` · `6,000+ customers` · `10+ yrs enterprise tech`
 
 [LinkedIn](https://www.linkedin.com/in/gaurav-pandvia) · [Resume](./Gaurav_Pandvia_Resume.pdf) · [Email](mailto:gaurav.pandvia@gmail.com) · [Website](https://gauzpan.github.io/gauzpan/)
 
