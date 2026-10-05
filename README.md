@@ -34,8 +34,7 @@
 </table>
 
 
-[LinkedIn](https://www.linkedin.com/in/gaurav-pandvia) · [Resume](./Gaurav_Pandvia_Resume.pdf) · [Email](mailto:gaurav.pandvia@gmail.com) · [Website](https://gauzpan.github.io/gauzpan/)
-
+<a href="https://www.linkedin.com/in/gaurav-pandvia" title="LinkedIn"><img src="assets/icons/linkedin.svg" alt="LinkedIn" width="64" height="56"></a><a href="./Gaurav_Pandvia_Resume.pdf" title="Resume"><img src="assets/icons/resume.svg" alt="Resume" width="64" height="56"></a><a href="mailto:gaurav.pandvia@gmail.com" title="Email"><img src="assets/icons/email.svg" alt="Email" width="64" height="56"></a><a href="https://gauzpan.github.io/gauzpan/" title="Website"><img src="assets/icons/website.svg" alt="Website" width="64" height="56"></a>
 </div>
 
 ---
