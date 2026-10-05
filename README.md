@@ -55,7 +55,7 @@ Senior Product Manager on **NCM**, a $200M+ ARR product serving 6,000+ customers
 
 </picture>
 
-Customer discovery with 50+ enterprise customers · 5+ years in product management after 6 years as a full-stack engineer.
+Customer discovery with multiple enterprise customers · 4+ years in product management after 7 years as a full-stack engineer.
 
 ### Past work areas
 
