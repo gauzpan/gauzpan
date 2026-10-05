@@ -3,15 +3,15 @@
 <style>
 :root{--card:#111A2C;--bd:#1E2A40;--fg:#E8ECF4;--sub:#B4BDCE;--mut:#8C97AD;--acc:#F5A524;--teal:#3FB8AF;--blue:#8AB4FF}
 html.light{--card:#F6F8FC;--bd:#D5DCE8;--fg:#0B1220;--sub:#3A465C;--mut:#5C6880;--acc:#C77F00;--teal:#1F8A82;--blue:#3B6FD4}
-html,body{margin:0;width:800px;height:230px;background:transparent}
-.g{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;height:230px}
+html,body{margin:0;width:800px;background:transparent}
+.g{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;}
 .c{box-sizing:border-box;background:var(--card);border:1px solid var(--bd);border-top:3px solid var(--k);border-radius:12px;padding:18px 20px;display:flex;flex-direction:column;gap:8px;color:var(--fg)}
 .l{font:400 11px 'JetBrains Mono',monospace;color:var(--mut);text-transform:uppercase;letter-spacing:.08em}
 .t{font:600 18px/1.2 'Space Grotesk',sans-serif}
 .d{font:400 13.5px/1.45 'Space Grotesk',sans-serif;color:var(--sub)}
 .o{margin-top:auto;font:400 12px 'JetBrains Mono',monospace;color:var(--acc)}
-</style></head><body><div class="g">
-<div class="c" style="--k:var(--acc)"><div class="l">Strategy</div><div class="t">In-product AI assistant</div><div class="d">Wrote the product strategy for the assistant built into NCM.</div><div class="o">Outcome: [ADD]</div></div>
-<div class="c" style="--k:var(--teal)"><div class="l">Integration</div><div class="t">NCM MCP Server</div><div class="d">Led the integration that exposes NCM to AI agents over MCP.</div><div class="o">Outcome: [ADD]</div></div>
+</style></head><body><div class="g" id="root">
+<div class="c" style="--k:var(--acc)"><div class="l">Strategy</div><div class="t">In-product AI assistant</div><div class="d">Wrote the product strategy for the assistant built into NCM.</div></div>
+<div class="c" style="--k:var(--teal)"><div class="l">Integration</div><div class="t">NCM MCP Server</div><div class="d">Led the integration that exposes NCM to AI agents over MCP.</div></div>
 <div class="c" style="--k:var(--blue)"><div class="l">In progress</div><div class="t">AI workspace orchestration</div><div class="d">LLM inference + Kubernetes runtime + RAG data layer, managed as one workspace.</div></div>
-</div><script>if(location.hash=='#light')document.documentElement.className='light'</script></body></html>
+</div><script>addEventListener('load',()=>setTimeout(()=>{document.documentElement.dataset.h=document.getElementById('root').getBoundingClientRect().height},300));if(location.hash=='#light')document.documentElement.className='light'</script></body></html>

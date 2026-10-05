@@ -51,7 +51,7 @@ Senior Product Manager on **NCM**, a $200M+ ARR product serving 6,000+ customers
 
   <source media="(prefers-color-scheme: light)" srcset="assets/nutanix-light.png">
 
-  <img src="assets/nutanix-light.png" alt="Three Nutanix work items. Strategy: In-product AI assistant. Wrote the product strategy for the assistant built into NCM. Outcome: to be added. Integration: NCM MCP Server. Led the integration that exposes NCM to AI agents over MCP. Outcome: to be added. In progress: AI workspace orchestration. LLM inference + Kubernetes runtime + RAG data layer, managed as one workspace." width="100%">
+  <img src="assets/nutanix-light.png" alt="Three Nutanix work items. Strategy: In-product AI assistant. Wrote the product strategy for the assistant built into NCM. Integration: NCM MCP Server. Led the integration that exposes NCM to AI agents over MCP. In progress: AI workspace orchestration. LLM inference + Kubernetes runtime + RAG data layer, managed as one workspace." width="100%">
 
 </picture>
 
@@ -73,7 +73,7 @@ Before AI, I owned these areas of the platform.
 
 ---
 
-## Weekend side projects
+## AI Build Quests & Prototypes
 
 
 
@@ -92,7 +92,7 @@ Before AI, I owned these areas of the platform.
 <td width="46%" valign="middle">
 
 Keeps riders in a group coordinated with live position tracking, and lets them raise an SOS for immediate emergency response.<br>
-<b>AI angle: Voice AI to nudge riders while riding</b> <code>[ADD]</code><br>
+<b>AI angle: Voice AI to nudge riders while riding</b><br>
 <img src="https://img.shields.io/badge/Buildathon%20winner%20%C2%B7%20ReThink%20System%20Cohort%208-F5A524?style=flat-square" alt="Status: Buildathon winner · ReThink System Cohort 8"> Working to further enhance.
 
 </td>
@@ -128,7 +128,7 @@ Keeps riders in a group coordinated with live position tracking, and lets them r
 <td width="46%" valign="middle">
 
 Citizens don't know who represents them or where to take an issue.<br>
-<b>AI angle: RAG pipeline to index and retrieve the government information regarding department name, roles and responsibility to answer chat based user query</b> <code>[ADD]</code>
+<b>AI angle: RAG pipeline to index and retrieve the government information regarding department name, roles and responsibility to answer chat based user query</b>
 
 </td>
 
@@ -163,7 +163,7 @@ Citizens don't know who represents them or where to take an issue.<br>
 <td width="46%" valign="middle">
 
 Doctors want to learn AI, but content is written for engineers.<br>
-<b>AI angle: GenAI Sandbox to practice prompt engineering specific to the industry</b> <code>[ADD]</code><br>
+<b>AI angle: GenAI Sandbox to practice prompt engineering specific to the industry</b><br>
 
 <img src="https://img.shields.io/badge/Live%20app%20%C2%B7%20local%20only-8C97AD?style=flat-square" alt="Status: Live app · local only">
 
@@ -204,7 +204,7 @@ Doctors want to learn AI, but content is written for engineers.<br>
 <td width="46%" valign="middle">
 
 Helps Australian colleges manage recruitment agent applications and lifecycle, for better compliance and faster processing.<br>
-<b>AI angle: Scan of agent uploaded application form to identify incorrect information as first level pass </b> <code>[ADD]</code><br>
+<b>AI angle: Scan of agent uploaded application form to identify incorrect information as first level pass </b><br>
 
 <img src="https://img.shields.io/badge/Live%20app%20%C2%B7%20local%20only-8C97AD?style=flat-square" alt="Status: Live app · local only">
 
@@ -310,7 +310,7 @@ Seniors face isolation and find it hard to make meaningful connections.<br>
 
 ## About me
 
-- **Engineer turned PM.** 7 years as a full-stack engineer before moving into product, so I still sneakingly sometime read the code and feel comfortable to talk architecture with my teams. `[confirm]`
+- **Engineer turned PM.** 7 years as a full-stack engineer before moving into product, so I still sneakingly sometime read the code and feel comfortable to talk architecture with my teams.
 - **I prototype to learn.** I use AI coding harnesses like Claude Code, Open Code, Codex, Cursor to turn a hypothesis into a working PoC in days, then test it with real users.
 - **Society Welfare.** I believe in do good, spread joy, good Karma. I led 100 volunteers at an NGO called Make A Difference, Bangalore, designing foundational learning programs for 200+ children under the age of 10 living in shelter homes.
 
