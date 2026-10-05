@@ -234,22 +234,22 @@ Helps Australian colleges manage recruitment agent applications and lifecycle, f
 
 <td width="24%" valign="middle">
 
-<img src="images/github-bot.gif" alt="" width="26" align="absmiddle"> <b>Tooti Gullak</b><br>
+<a href="https://lifeloom-prototype.netlify.app/"><img src="images/github-bot.gif" alt="" width="26" align="absmiddle"></a> <b><a href="https://lifeloom-prototype.netlify.app/">LifeLoom</a></b><br>
 
-<img src="https://img.shields.io/badge/Fintech%2C%20Gig%20economy-3FB8AF?style=flat-square" alt="Domain: Fintech, Gig economy">
+<img src="https://img.shields.io/badge/Silver%20economy-F5A524?style=flat-square" alt="Domain: Silver economy">
 
 </td>
 
 <td width="46%" valign="middle">
 
-Gig workers with irregular income have no tools to save.<br>
+Seniors face isolation and find it hard to make meaningful connections.<br>
 
 
 </td>
 
 <td width="30%" valign="middle" align="center">
 
-<img src="https://img.shields.io/badge/Prototype-8C97AD?style=flat-square" alt="Status: Prototype">
+<a href="https://lifeloom-prototype.netlify.app/"><img src="https://img.shields.io/badge/%E2%96%B6%20Prototype-1E2A40?style=for-the-badge" alt="Prototype of LifeLoom"></a>
 
 </td>
 
@@ -269,15 +269,15 @@ Gig workers with irregular income have no tools to save.<br>
 
 <td width="24%" valign="middle">
 
-<img src="images/github-bot.gif" alt="" width="26" align="absmiddle"> <b>Loom</b><br>
+<img src="images/github-bot.gif" alt="" width="26" align="absmiddle"> <b>Tooti Gullak</b><br>
 
-<img src="https://img.shields.io/badge/Silver%20economy-F5A524?style=flat-square" alt="Domain: Silver economy">
+<img src="https://img.shields.io/badge/Fintech%2C%20Gig%20economy-3FB8AF?style=flat-square" alt="Domain: Fintech, Gig economy">
 
 </td>
 
 <td width="46%" valign="middle">
 
-Seniors face isolation and find it hard to make meaningful connections.<br>
+Gig workers with irregular income have no tools to save.<br>
 
 
 </td>
