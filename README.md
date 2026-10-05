@@ -99,6 +99,10 @@ Keeps riders in a group coordinated with live position tracking, and lets them r
 
 <a href="http://rideinsync.in"><img src="https://img.shields.io/badge/%E2%96%B6%20Live%20Demo-1E2A40?style=for-the-badge" alt="Live demo of RideInSync"></a> <a href="https://github.com/gauzpan/rideinsync"><img src="https://img.shields.io/badge/View%20Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="RideInSync code on GitHub"></a>
 
+<br>
+
+<a href="https://gauzpan.github.io/gauzpan/prds/rideinsync.html"><img src="https://img.shields.io/badge/Case%20Study-3FB8AF?style=for-the-badge" alt="Product case study for RideInSync"></a>
+
 </td>
 
 </tr>
@@ -133,6 +137,10 @@ Citizens don't know who represents them or where to take an issue.<br>
 <td width="30%" valign="middle" align="center">
 
 <a href="https://karma-setu.vercel.app/"><img src="https://img.shields.io/badge/%E2%96%B6%20Live%20Demo-1E2A40?style=for-the-badge" alt="Live demo of CivicRouter"></a> <a href="https://github.com/gauzpan/karma-setu"><img src="https://img.shields.io/badge/View%20Code-181717?style=for-the-badge&logo=github&logoColor=white" alt="CivicRouter code on GitHub"></a>
+
+<br>
+
+<a href="https://gauzpan.github.io/gauzpan/prds/civicrouter.html"><img src="https://img.shields.io/badge/Case%20Study-3FB8AF?style=for-the-badge" alt="Product case study for CivicRouter"></a>
 
 </td>
 
@@ -175,6 +183,10 @@ Doctors want to learn AI, but content is written for engineers.<br>
 
 </a>
 
+<br>
+
+<a href="https://gauzpan.github.io/gauzpan/prds/charaka-ai.html"><img src="https://img.shields.io/badge/Case%20Study-3FB8AF?style=for-the-badge" alt="Product case study for Charaka AI"></a>
+
 </td>
 
 </tr>
@@ -216,6 +228,10 @@ Helps Australian colleges manage recruitment agent applications and lifecycle, f
 
 </a>
 
+<br>
+
+<a href="https://gauzpan.github.io/gauzpan/prds/agent-management-portal.html"><img src="https://img.shields.io/badge/Case%20Study-3FB8AF?style=for-the-badge" alt="Product case study for Agent Management Portal"></a>
+
 </td>
 
 </tr>
@@ -251,6 +267,10 @@ Seniors face isolation and find it hard to make meaningful connections.<br>
 
 <a href="https://lifeloom-prototype.netlify.app/"><img src="https://img.shields.io/badge/%E2%96%B6%20Prototype-1E2A40?style=for-the-badge" alt="Prototype of LifeLoom"></a>
 
+<br>
+
+<a href="https://gauzpan.github.io/gauzpan/prds/lifeloom.html"><img src="https://img.shields.io/badge/Case%20Study-3FB8AF?style=for-the-badge" alt="Product case study for LifeLoom"></a>
+
 </td>
 
 </tr>
@@ -285,6 +305,10 @@ Gig workers with irregular income have no tools to save.<br>
 <td width="30%" valign="middle" align="center">
 
 <img src="https://img.shields.io/badge/Prototype-8C97AD?style=flat-square" alt="Status: Prototype">
+
+<br>
+
+<a href="https://gauzpan.github.io/gauzpan/prds/tooti-gullak.html"><img src="https://img.shields.io/badge/Case%20Study-3FB8AF?style=for-the-badge" alt="Product case study for Tooti Gullak"></a>
 
 </td>
 

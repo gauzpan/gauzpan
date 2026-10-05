@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tooti Gullak · Case study · Gaurav Pandvia</title>
+<meta name="description" content="Tooti Gullak: a product manager&#x27;s one-page case study, from problem space to solution space."><meta name="theme-color" content="#0B1220">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0D1117;--navy:#0B1220;--card:#111A2C;--line:#1E2A40;--line2:#33415C;--fg:#E8ECF4;--soft:#D3D9E4;--sub:#B4BDCE;--mut:#8C97AD;--acc:#F5A524;--acc2:#FFC861;--teal:#3FB8AF;--blue:#8AB4FF;--coral:#FF8A65;
+--head:'Space Grotesk',system-ui,sans-serif;--body:'IBM Plex Sans',system-ui,sans-serif;--mono:'JetBrains Mono',ui-monospace,monospace}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:400 15px/1.55 var(--body)}
+a{color:var(--acc);text-decoration:none}a:hover{color:var(--acc2);text-decoration:underline}
+a:focus-visible{outline:2px solid var(--acc2);outline-offset:3px;border-radius:4px}
+.wrap{max-width:1180px;margin:0 auto;padding:0 24px}
+.top{display:flex;justify-content:space-between;gap:12px;align-items:center;padding:18px 0;font:400 12.5px var(--mono);color:var(--mut)}
+.top a{color:var(--mut)}.top a:hover{color:var(--acc)}
+.hero{padding:10px 0 26px}
+.kick{font:400 12px var(--mono);color:var(--mut);text-transform:uppercase;letter-spacing:.09em}
+h1{margin:6px 0 8px;font:600 clamp(34px,6vw,54px)/1.04 var(--head);letter-spacing:-.025em}
+.tag{display:inline-block;font:400 11.5px var(--mono);padding:3px 10px;border-radius:999px;color:var(--navy);background:var(--c);margin-right:8px;vertical-align:middle}
+.tagline{margin:10px 0 14px;max-width:68ch;color:var(--sub);font-size:17px}
+.chips{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.chips span{font:400 12px var(--mono);color:var(--soft);border:1px solid var(--line2);border-radius:6px;padding:3px 9px}
+.btn{display:inline-flex;align-items:center;height:34px;padding:0 14px;border-radius:7px;background:var(--acc);color:var(--navy)!important;font:500 12.5px var(--mono);text-transform:uppercase;letter-spacing:.05em}
+.btn:hover{background:var(--acc2);text-decoration:none}
+.eyebrow{font:400 11px var(--mono);letter-spacing:.09em;text-transform:uppercase;color:var(--mut);margin:0 0 10px}
+.grid2{display:grid;grid-template-columns:1.15fr 1fr;gap:16px;margin-bottom:26px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px 22px}
+.why ul{margin:0;padding:0;list-style:none;display:grid;gap:12px}
+.why li{color:var(--sub);font-size:14.5px;padding-left:16px;position:relative}
+.why li::before{content:"";position:absolute;left:0;top:.62em;width:7px;height:7px;border-radius:2px;background:var(--acc)}
+b{color:var(--fg);font-weight:600}
+.stats{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.stat{background:var(--navy);border:1px solid var(--line);border-radius:10px;padding:14px 16px;display:flex;flex-direction:column;gap:3px}
+.stat .n{font:700 clamp(24px,3.2vw,32px)/1.05 var(--head);color:var(--acc);letter-spacing:-.02em}
+.stat .l{font-size:13px;color:var(--soft);line-height:1.35}
+.stat .s{font:400 10.5px var(--mono);color:var(--mut);margin-top:auto;padding-top:4px}
+.dd{margin:6px 0 14px}.dd svg{width:100%;height:auto;display:block}
+.dd text{font-family:var(--head)}
+.phases{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;align-items:stretch}
+.ph{background:var(--card);border:1px solid var(--line);border-top:3px solid var(--pc);border-radius:12px;padding:18px 18px 20px;display:flex;flex-direction:column;gap:12px}
+.ph .no{font:400 11px var(--mono);color:var(--pc);letter-spacing:.08em;text-transform:uppercase}
+.ph h2{margin:0;font:600 20px/1.15 var(--head);letter-spacing:-.01em}
+.ph .q{margin:-6px 0 0;color:var(--mut);font-size:13px}
+.ph ul{margin:0;padding:0;list-style:none;display:grid;gap:9px}
+.ph li{font-size:13.5px;color:var(--sub);padding-left:14px;position:relative;line-height:1.5}
+.ph li::before{content:"";position:absolute;left:0;top:.6em;width:5px;height:5px;border-radius:50%;background:var(--pc)}
+.lead{margin:0;font-size:13.5px;color:var(--soft)}
+.problem{background:rgba(63,184,175,.09);border:1px solid rgba(63,184,175,.45);border-radius:10px;padding:12px 14px;font:500 14px/1.45 var(--head);color:var(--fg)}
+.problem small{display:block;font:400 10.5px var(--mono);letter-spacing:.08em;text-transform:uppercase;color:var(--teal);margin-bottom:5px}
+.ins{display:grid;gap:10px}
+.insight{background:var(--navy);border:1px solid var(--line);border-left:3px solid var(--acc);border-radius:8px;padding:10px 12px}
+.insight small{display:block;font:400 10px var(--mono);letter-spacing:.09em;color:var(--acc);text-transform:uppercase}
+.insight strong{display:block;font:600 14px/1.3 var(--head);margin:2px 0 4px;color:var(--fg)}
+.insight p{margin:0;font-size:13px;color:var(--sub);line-height:1.5}
+.decision{background:rgba(245,165,36,.09);border:1px solid rgba(245,165,36,.45);border-radius:10px;padding:11px 13px;font-size:13.5px;color:var(--soft);margin-top:auto}
+.note{font-size:12.5px;color:var(--mut);margin:0}
+.foot{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:26px 0 8px}
+.val ul{margin:0;padding:0;list-style:none;display:grid;gap:9px}
+.val li{font-size:13.5px;color:var(--sub);padding-left:16px;position:relative}
+.val li::before{content:"?";position:absolute;left:0;top:0;font:600 12px var(--mono);color:var(--acc)}
+.more{display:flex;flex-wrap:wrap;gap:8px}
+.more a{font:400 12.5px var(--mono);border:1px solid var(--line2);border-radius:6px;padding:5px 10px;color:var(--soft)}
+.more a:hover{border-color:var(--acc);color:var(--acc);text-decoration:none}
+.src{color:var(--mut);font:400 11.5px var(--mono);padding:14px 0 40px}
+code{font:400 .88em var(--mono);color:var(--acc)}
+@media(max-width:1020px){.phases{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:760px){.wrap{padding:0 16px}.grid2,.foot{grid-template-columns:1fr}.phases{grid-template-columns:1fr}.dd{display:none}.top{flex-direction:column;align-items:flex-start}}
+@media print{@page{size:A4 landscape;margin:8mm}body{background:#fff;color:#111;font-size:10px}.top,.more,.dd{display:none}
+.card,.ph,.stat,.insight,.problem,.decision{background:#fff!important;border-color:#ccc!important;color:#111}
+b,h1,h2,.insight strong,.problem{color:#000}.ph li,.insight p,.why li,.lead,.tagline,.stat .l{color:#333}.phases{grid-template-columns:repeat(4,1fr);gap:8px}.ph,.card{padding:10px}.ph h2{font-size:14px}.ph li,.insight p{font-size:9px}h1{font-size:30px}}
+</style></head><body><div class="wrap">
+<div class="top"><a href="../index.html#projects">← Back to portfolio</a><span>Case study · a product manager's one-pager · Double Diamond</span></div>
+
+<header class="hero"><div class="kick">AI Build Quests &amp; Prototypes</div>
+<h1>Tooti Gullak</h1>
+<div style="margin-bottom:6px"><span class="tag" style="--c:var(--teal)">Fintech · Gig economy</span></div>
+<p class="tagline">A savings bridge for gig workers who earn digitally every day but live payout to payout.</p>
+<div class="chips"><span>Discovery PRD</span><span>~30 worker interviews</span><span>Prototype</span></div></header>
+
+<section class="grid2" aria-label="Why build this and the evidence">
+<div class="card why"><p class="eyebrow">Why build a solution for it</p><ul><li><b>A large, growing workforce.</b> About 12M gig workers today, projected at 23.5M by 2030 and 61.6M by 2047.</li><li><b>Digital income, but no wealth path.</b> Payouts are digital and regular, yet the financial products on offer are built for short-term liquidity, not savings.</li><li><b>The risk lands on households.</b> The worker's household absorbs every cost shock without ever appearing on the app screen.</li></ul></div>
+<div class="card"><p class="eyebrow">Evidence: income without a safety net</p><div class="stats"><div class="stat"><span class="n">~12M→23.5M</span><span class="l">gig workers, FY25 to 2030</span><span class="s">Economic Survey, NITI Aayog</span></div><div class="stat"><span class="n">~69%</span><span class="l">earn ₹1,500 or less a day</span><span class="s">Secondary research</span></div><div class="stat"><span class="n">42%</span><span class="l">of surveyed gig workers have accident insurance</span><span class="s">Secondary research</span></div><div class="stat"><span class="n">80%</span><span class="l">of interviewed workers carry higher-interest debt</span><span class="s">Primary, ~30 interviews</span></div></div></div>
+</section>
+
+<div class="dd"><svg viewBox="0 0 1000 150" role="img" aria-label="Double Diamond: Discover and Define make up the problem space; Develop and Deliver make up the solution space">
+<text x="247" y="14" text-anchor="middle" font-size="11" fill="#3FB8AF" letter-spacing="2" style="font-family:var(--mono)">PROBLEM SPACE</text>
+<text x="749" y="14" text-anchor="middle" font-size="11" fill="#F5A524" letter-spacing="2" style="font-family:var(--mono)">SOLUTION SPACE</text>
+<polygon points="4,86 247,28 490,86 247,144" fill="#3FB8AF" fill-opacity=".10" stroke="#3FB8AF" stroke-width="2" stroke-linejoin="round"/>
+<polygon points="508,86 751,28 994,86 751,144" fill="#F5A524" fill-opacity=".10" stroke="#F5A524" stroke-width="2" stroke-linejoin="round"/>
+<line x1="247" y1="28" x2="247" y2="144" stroke="#3FB8AF" stroke-opacity=".5" stroke-dasharray="4 5"/>
+<line x1="751" y1="28" x2="751" y2="144" stroke="#F5A524" stroke-opacity=".5" stroke-dasharray="4 5"/>
+<path d="M492 86h14m-5-5l5 5-5 5" fill="none" stroke="#8C97AD" stroke-width="1.6"/>
+<g fill="#E8ECF4" font-weight="600" font-size="20" text-anchor="middle">
+<text x="135" y="84">Discover</text><text x="371" y="84">Define</text><text x="639" y="84">Develop</text><text x="875" y="84">Deliver</text></g>
+<g font-size="11" text-anchor="middle" fill="#8C97AD" style="font-family:var(--mono)">
+<text x="135" y="104">diverge</text><text x="371" y="104">converge</text><text x="639" y="104">diverge</text><text x="875" y="104">converge</text></g>
+</svg></div>
+<section class="phases" aria-label="Double Diamond phases">
+<article class="ph" style="--pc:var(--teal)"><span class="no">01 · Discover · diverge</span><h2>What is going on?</h2><p class="q">Research and observation, kept wide.</p><ul><li><b>Ecosystem mapped</b> across five tiers: workers, platforms, consumers, merchants and worker households, plus capital providers, intermediaries, regulators and civil society.</li><li><b>Trends:</b> gig work is shifting from side income to livelihood; workers multi-app; payouts are digital; EV rentals change daily costs.</li><li><b>Primary research:</b> about 30 semi-structured interviews with Tier-1 delivery, home-service and quick-commerce workers aged 18–40.</li><li><b>Observed:</b> roughly ₹7,000 a month on fuel, around ₹180 a day for EV rental and charging, and informal borrowing as the first resort in an emergency.</li></ul></article>
+<article class="ph" style="--pc:var(--teal)"><span class="no">02 · Define · converge</span><h2>What is the real problem?</h2>
+<div class="problem"><small>Problem statement</small>Despite regular, digitised income, gig workers are trapped in short-term survival cycles. There is no accessible financial bridge from daily cash-flow management and debt reliance to long-term resilience.</div><div class="ins"><div class="insight"><small>Insight 01</small><strong>Technology is used to lend, not to save</strong><p>Fintechs auto-deduct from payouts for loan repayments and EV rental fees, but no app uses the same mechanism to help workers save.</p></div><div class="insight"><small>Insight 02</small><strong>They tried saving, then it broke</strong><p>One interviewee built ₹10,000 on a micro-savings app over a year, then withdrew it all in a debt emergency. Withdrawal charges added to the frustration.</p></div><div class="insight"><small>Insight 03</small><strong>One job, three enabling jobs</strong><p>Permission to save (the money must feel liquid), a reason to save (named goals with visible progress) and less friction (trust and simplicity).</p></div></div></article>
+<article class="ph" style="--pc:var(--acc)"><span class="no">03 · Develop · diverge</span><h2>What could we build?</h2><p class="lead">Three lenses on gig workers led to three opportunity areas:</p><ul><li><b>Welfare and finance:</b> scheme awareness, and products for unstable income</li><li><b>Cross-platform:</b> wage visibility and credit inclusion</li><li><b>Infrastructure:</b> portable credit identity, and workers as trained first responders</li><li><b>Existing players:</b> early-wage and credit apps solve debt, not wealth; micro-investing apps put the whole behaviour burden on the worker</li></ul><p class="note"><b>Primary persona:</b> a stabilised full-time worker earning ₹25,000–30,000 a month with a small, consistent surplus. Not the first target: new or low-rated entrants and debt-carrying migrants.</p><div class="decision"><b>Converged on</b> a long-term savings bridge, since credit and short-term liquidity are already crowded.</div></article>
+<article class="ph" style="--pc:var(--acc)"><span class="no">04 · Deliver · converge</span><h2>What are we shipping?</h2><p class="lead">The solution hypothesis from the research synthesis:</p><ul><li><b>Automatic by default:</b> sweep a small portion of every payout aside, with no active decision or discipline</li><li><b>Reversible:</b> saved money must feel as liquid and easy to withdraw as cash</li><li><b>Goal-based:</b> route savings into a named goal with visible progress</li><li><b>Small and frequent:</b> deductions aligned to daily or weekly payouts, not large monthly contributions</li><li><b>In the worker's language,</b> starting with one instrument such as an FD or RD</li></ul><p class="note">Opportunity sizing basis: about 12M workers, 60% adoption from interviews, and a conservative 10% subscription rate benchmarked on competitors.</p></article>
+</section>
+
+<section class="foot">
+<div class="card val"><p class="eyebrow">Still to validate</p><ul><li>Assumed: speed, trust and simplicity drive where workers borrow, more than the interest rate.</li><li>Assumed: small, frequent deductions feel more acceptable than large monthly contributions.</li><li>Open: actual weekly spend, 3–5 year goals, and what an “ideal” product sounds like in workers' own words.</li></ul></div>
+<div class="card"><p class="eyebrow">More case studies</p><div class="more"><a href="rideinsync.html">RideInSync</a><a href="civicrouter.html">CivicRouter</a><a href="charaka-ai.html">Charaka AI</a><a href="agent-management-portal.html">Agent Management Portal</a><a href="lifeloom.html">LifeLoom</a></div></div>
+</section>
+<p class="src">Distilled from the project's PRD. Figures are as cited there, with sources noted on each stat.</p>
+</div></body></html>
