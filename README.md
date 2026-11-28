@@ -6,7 +6,7 @@
 
   <source media="(prefers-color-scheme: light)" srcset="assets/banner-light.png">
 
-  <img src="assets/banner-light.png" alt="Gaurav Pandvia. Senior PM · Enterprise AI & Hybrid Cloud · Engineer turned PM who still builds" width="100%">
+  <img src="assets/banner-light.png" alt="Gaurav Pandvia. Product Manager · Enterprise AI & Hybrid Cloud · Engineer turned PM who still builds" width="100%">
 
 </picture>
 
@@ -18,8 +18,7 @@
 
 - 🧩 <code>I turn complex, real-world problems into <b>tech-powered products</b>, breaking them down with first principles and systems thinking.</code>
 - 🏢 <code>By day, I work on an <b>Enterprise product for 6,000+ customers</b> managing private Cloud Infrastructure workloads.</code>
-- 🚀 <code>I'm relentlessly building with <b>AI</b> to ship what works.</code>
-- 🧪 <code>On weekends, I experiment with AI.</code>
+- 🧪 <code>On weekends, I experiment with AI building projects for personal learning.</code>
 
 </td>
 
@@ -39,9 +38,9 @@
 
 ---
 
-## Day job: Nutanix
+## Work: Nutanix
 
-Senior Product Manager on **NCM**, a $200M+ ARR product serving 6,000+ customers. My current focus: making AI a first-class part of how they run their private clouds.
+Principal Product Manager for **Nutanix Cloud Manager**, a $250M+ ARR product serving 7,000+ customers. My current focus: making AI a first-class part of how Enterprise run their private clouds and an operating model for managing AI agents.
 
 <picture>
 
@@ -65,13 +64,13 @@ Before AI, I owned these areas of the platform.
 
   <source media="(prefers-color-scheme: light)" srcset="assets/past-work-light.png">
 
-  <img src="assets/past-work-light.png" alt="Past work areas. 01 Projects and IAM: defined requirements and drove the integration of platform services with NCM, so customers get least-privilege access scoped within a boundary. 02 Custom Forms for customized UI: defined requirements for customizable application request forms, so each customer gets the fields and look their workflow needs. 03 Infrastructure application lifecycle automation: drove improvements to the Day 0, Day 1 and Day 2 application lifecycle experience on Private Cloud for Enterprise customers. 04 Infrastructure as Code (IaC): owned the IaC capability in NCM: CLI and programmatic access to Self-Service automation entities, enabling customers' custom CI/CD integrations. 05 Cost governance and Security Compliance for public clouds: as a full-stack engineer, built capabilities that let Enterprise customers analyze and optimize their cloud spend and compliance posture." width="100%">
+  <img src="assets/past-work-light.png" alt="Past work areas. 01 Multi-Tenancy and RBAC: Defined strategy and requirements to drive platform services like Multi-tenancy and RBAC within the product, referred to as Projects and IAM, so customers get least-privilege access scoped within a tenant boundary. 02 Custom Forms for customized UI: defined requirements for customizable application request forms, so each customer gets the fields and look their workflow needs. 03 Infrastructure application lifecycle automation: drove improvements to the Day 0, Day 1 and Day 2 application lifecycle experience on VM based and cloud native Workloads for Enterprise customers. 04 Infrastructure as Code (IaC): owned the IaC capability in NCM: CLI and programmatic access to Self-Service automation entities, enabling customers' custom CI/CD integrations. 05 Cost governance and Security Compliance for public clouds: as a full-stack engineer, built capabilities that let Enterprise customers analyze and optimize their cloud spend and compliance posture." width="100%">
 
 </picture>
 
 ---
 
-## AI Build Quests & Prototypes
+## Personal Build Quests & Prototypes
 
 
 
