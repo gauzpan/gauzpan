@@ -17,7 +17,7 @@
 <td width="50%" valign="middle">
 
 - 🧩 <code>I turn complex, real-world problems into <b>tech-powered products</b>, breaking them down with first principles and systems thinking.</code>
-- 🏢 <code>By day, I work on an <b>Enterprise product for 6,000+ customers</b> managing private Cloud Infrastructure workloads.</code>
+- 🏢 <code>By day, I work on an <b>Enterprise product for 7,000+ customers</b> managing private Cloud Infrastructure workloads.</code>
 - 🧪 <code>On weekends, I experiment with AI building projects for personal learning.</code>
 
 </td>
@@ -48,7 +48,7 @@ Principal Product Manager for **Nutanix Cloud Manager**, a $250M+ ARR product se
 
   <source media="(prefers-color-scheme: light)" srcset="assets/nutanix-light.png">
 
-  <img src="assets/nutanix-light.png" alt="Three Nutanix work items. Strategy: In-product AI assistant. Authored the product strategy for an AI assistant planned inside NCM. Integration: NCM MCP Server. Spearheading the integration to expose NCM to AI agents over MCP. In progress: AI workspace orchestration. LLM inference + Kubernetes runtime + RAG data layer, managed as one workspace." width="100%">
+  <img src="assets/nutanix-light.png" alt="Three Nutanix work items. Strategy: In-product AI assistant. Authored the product strategy for an AI assistant planned inside NCM. Integration: NCM MCP Server. Spearheading the integration to expose NCM to AI agents over MCP. In progress: AI agent operating model. Defining how enterprises govern and manage AI agents across their private clouds." width="100%">
 
 </picture>
 
